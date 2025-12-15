@@ -57,7 +57,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: tcb-vote-front
-        image: thecloudbootcamp/tcb-vote:latest
+        image: tcbleandrobueno.azurecr.io/tcb-vote:latest
         ports:
         - containerPort: 80
         resources:
